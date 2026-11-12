@@ -1,5 +1,5 @@
 ---
-name: project-digest-en
+name: project-digest
 description: Analyzes a code project with the fewest possible tokens and returns the essentials - what it does, its purpose, stack, main features, architecture, how to run it and risks. Uses a script that skips node_modules, binaries, lock files, builds and generated files. ALWAYS use when the user asks to analyze, understand, summarize, explore, document or onboard onto a project, repository or codebase (e.g. "what does this project do?", "analyze the code", "explain the structure", "give me an overview of the codebase"); when opening an unfamiliar code folder or before planning changes in a project not yet read in this session; and during development to see what changed (git) or reassess the project's state. Prefer this skill over reading files one by one, even if the user never mentions tokens.
 ---
 

@@ -30,15 +30,13 @@ Each skill is a self-contained package containing instructions (`SKILL.md`), hel
 
 ## Install
 
-Skills follow the [Agent Skills specification](https://agentskills.io/specification) and are intended to be installable through the [skills CLI](https://www.skills.sh/docs/cli) from [skills.sh](https://skills.sh).
-
-### Install all skills from this repository:
+Install all skills from this repository:
 
 ```bash
 npx skills add Silvano-Paulino/skills
 ```
 
-### Install a specific skill:
+Install a specific skill:
 
 ```bash
 npx skills add Silvano-Paulino/skills --skill project-digest
